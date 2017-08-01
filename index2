@@ -1,0 +1,195 @@
+<html>
+<head>
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/carousel.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+
+	<link rel="stylesheet" href="style.css">
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+	
+	</script>
+	
+	
+	
+
+
+</head>
+	<body>
+
+		<div id="mySidenav" class="sidenav my_style">
+					<label class="logo">FOOD</label><label class="logo1">life</label>
+					<img src="img/leaf.png" class="logo_img">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<ul class="">
+						<li class="about"><a href="#">ABOUT</a></li>
+						
+						<li  class="about"><a href="#">SERVICES</a></li>
+						
+						<li class="about"><a href="#">CLIENTS</a></li>
+						<li class="about"><a href="#">PAGES</a></li>
+						<li class="about"><a href="#">GALLERY</a></li>
+
+						<li class="about"><a href="#">CONTACT</a></li>
+
+					</ul>
+					
+	<div class="row">
+		<div class="col-sm-12 icon_li">
+		<ul>
+			<li><a href="#"><i class="fa fa-facebook-official fa-2x icon" ></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter fa-2x icon"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram fa-2x icon"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus fa-2x icon" ></i></a></li>
+		</ul>
+		</div>
+	</div>
+		</div>
+
+
+
+
+
+  		<div>
+			<img src="img/banner1.jpg" class="banner">
+				<div class="container">
+					<div class="span_banner">
+						<span style="font-size:40px;cursor:pointer;color:white;" onclick="openNav()">&#9776; </span>
+					</div>
+						<div class="welocme">
+							<p>Welcome to<br> our site</p>
+							<div>
+								<button class="btn btn-danger btn_banner">Search</button>
+							</div>
+						</div>
+			</div>
+		</div><!--------------banner end---------->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6 " >
+			<a href="#"><div class="my_box"><img src="img/1.jpg" class="img-responsive my_img">
+				<div class="box_para">VEGGIE BURGER</div>
+				
+			</div></a>
+			
+		</div>
+		<div class="col-sm-6" style="margin:90px 0 0 0;">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="my_box1"><img src="img/2.jpg" class="img-responsive my_img1">
+						
+						<div class="box_para">veggie pasta</div>
+					
+					</div>
+					
+					</div>
+				</div>
+				
+				<div class="row">
+				<div class="col-sm-12">
+					<div class="my_box1"><img src="img/5.jpg" class="img-responsive my_img1">
+					
+						<div class="box_para">Fresh juice</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="row"></div>
+		
+		</div>
+	</div><!-----------------row end-------------->
+
+<!--------------conyainer end----------->
+
+<!----------------------------menu part----------------->
+	<div class="static_banner">
+	
+			<div class="container">
+				<div class="row"><h1 class="menu_head text-center">Our menu</h1>
+					<div class="col-sm-12 text-center">
+						<button class="btn btn-warning menu_btn">BREAKFAST</button>
+						<button class="btn btn-warning menu_btn">LUNCH</button>
+						<button class="btn btn-warning menu_btn">SALAD</button>
+						<button class="btn btn-warning menu_btn">DRINKS</button>
+						<button class="btn btn-warning menu_btn">CAKES</button>
+					
+					</div>
+				</div><!---------1st menu row end------------->
+				
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="row">
+					<a href="#"><div class="col-sm-6 white_box"></a>
+						<div class="img_float"><img src="img/salad.png" class="img-responsive img_gal"></div>
+							<div><h3 class="menu_head2">Simply dummy</h3>
+										<p class="menu_para">Lorem Ipsum is simply dummy text of the printing and typesetting
+										industry. Lorem Ipsum has been the industry's standard dummy text ever sin</p>
+										<label class="label_para">$10</label>
+									</div>
+							
+							</div>
+		<a href="#"><div class="col-sm-6 white_box1"></a>
+			<div class="img_float"><img src="img/salad2.png" class="img-responsive img_gal"></div>
+					<div><h3 class="menu_head2">Simply dummy</h3>
+							<p class="menu_para">Lorem Ipsum is simply dummy text of the printing and typesetting
+										industry. Lorem Ipsum has been the industry's standard dummy text ever sin</p>
+							<label class="label_para">$13</label>
+					</div>
+		</div>
+	</div>
+						<!---------------2nd gal------------->
+<div class="row">
+	<div class="col-sm-6 white_box">
+		<div class="img_float"><img src="img/ice.jpg" class="img-responsive img_gal2"></div>
+				<div><h3 class="menu_head2">Simply dummy</h3>
+					<p class="menu_para">Lorem Ipsum is simply dummy text of the printing and typesetting
+										industry. Lorem Ipsum has been the industry's standard dummy text ever sin</p>
+										<label class="label_para">$12</label>
+				</div>
+	</div>
+	<a href="#"><div class="col-sm-6 white_box1"></a>
+		<div class="img_float"><img src="img/ice2.png" class="img-responsive img_gal2"></div>
+				<div><h3 class="menu_head2">Simply dummy</h3>
+						<p class="menu_para">Lorem Ipsum is simply dummy text of the printing and typesetting
+										industry. Lorem Ipsum has been the industry's standard dummy text ever sin</p>
+							<label class="label_para">$10</label>
+		</div>
+	</div>					
+</div>
+						
+					
+					</div><!--------btn 12 end------>
+				</div><!-------------------2nd row menu end-------------->
+			</div>
+
+	</div>
+<!--------------------------small banner---------------->
+<div class="small_banner">
+	<div class="row">
+		<div class="col-sm-7"><h3 class="small_head">Best deal</h3>
+			<p class="small_para">Salad With chicken</p>
+			<p class="small_para1">Lorem Ipsum is simply dummy text of the printing dummy <br>text of the printing</p>
+			<button class="btn btn-warning order_btn">Order</button>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/salad2.png" class="img-responsive small_img">
+			
+		</div>
+	</div>
+	
+</div>
+
+
+	
+	</body>
+</html>

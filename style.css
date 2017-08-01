@@ -1,0 +1,562 @@
+body{
+	background:#F6F6F6;
+}
+
+@font-face{
+	font-family:'bold_font';
+	src:url('assets/fonts/SpecifyPERSONAL-ConBold.ttf');
+}
+@font-face{
+	font-family:'para_font';
+	src:url('assets/fonts/Aileron-Light.otf');
+}
+
+@font-face{
+	font-family:'bold_font1';
+	src:url('assets/fonts/LeagueGothic-CondensedRegular.otf');
+}
+@font-face{
+	font-family:'fav_font';
+	src:url('assets/fonts/one.ttf')
+}
+
+#top_btn{
+  display:none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background:none;
+  color:#9ECF1C;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+
+}
+#span_button{
+	position:fixed;
+	top:20px;
+	left:50px;
+	
+}
+
+.banner{
+	width:100%;
+}
+.welocme{
+	position:absolute;
+	color:white;
+	font-size:70px;
+	font-weight:bold;
+	line-height:60px;
+	bottom:30%;
+	
+}
+.span_banner{
+	position:absolute;
+	bottom:90%;
+	
+}
+.btn_banner{
+	width:140px;
+	background:#ECB107;
+	font-weight:bold;
+	border:none;
+	height:50px;
+	font-size:19px;
+	transition:1s;
+
+}
+.btn_banner:hover{
+	background:#678607;
+	width:180px;
+	height:60px;
+	transition:0.70s;
+}
+.bar{
+	color:white;
+	position:relative;
+	bottom:40%;
+}
+.logo{
+	font-size:30px;
+	color:#8DB317;
+	font-weight:bold;
+	margin:0 0 30px 5px;
+}
+.logo1{
+	font-size:25px;
+	color:#A3D508;
+	font-weight:bold;
+	
+	
+}
+.logo_img{
+	float:left;
+	width:60px;
+	height:60px;
+}
+/*====================nav part=======================*/
+
+.my_style ul{
+	list-style-type:none;
+	margin-left:-30px;
+	
+	
+	
+}
+.my_style li a{
+	color:#2F3D03;
+	font-size:18px;
+	margin:15px 0 25px 0;
+
+}
+.my_style li a:hover{
+	color:#9CC90E;
+}
+
+
+
+
+.about{
+    text-decoration: none;
+    display:block;
+    border-bottom:1px solid transparent;    
+    width: 0px;
+	
+    transition: 0.5s ease;
+    
+    height: 45px;
+}
+.about:hover {
+    border-bottom:2px solid #FBB004;
+    width: 200px;
+}
+.icon_li li a{
+	display:inline;
+	float:left;
+
+}
+.icon{
+	color:#A0B267;
+	transition:1s;
+		
+	
+}
+.icon:hover{
+color:#678607;
+	transition:0.50s;
+	
+}
+/*==========================box part====================*/
+
+.my_box{
+	width:550px;
+	height:610px;
+	background:white;
+	padding:20px;
+	margin:100px 0 0 0;
+	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+	transition: all .2s ease-in-out;
+}
+
+.my_box:hover{
+	-ms-transform: scale(1.02,1.02); /* IE 9 */
+    -webkit-transform: scale(1.02,1.02); /* Safari */
+    transform: scale(1.02,1.02);
+	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+
+.my_img{
+	width:540px;
+	height:550px;
+	background:white;
+	
+}
+
+.my_box1{
+	width:580px;
+	height:290px;
+	background:white;
+	padding:20px;
+	margin:10px 0 0 0;
+	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+	transition: all .2s ease-in-out;
+}
+
+.my_box1:hover{
+	-ms-transform: scale(1.02,1.02); /* IE 9 */
+    -webkit-transform: scale(1.02,1.02); /* Safari */
+    transform: scale(1.02,1.02);
+	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+.my_img1{
+	width:550px;
+	height:245px;
+	background:white;
+	
+}
+
+
+.box_para{
+	color:#fff;
+	font-size:50px;
+	font-family:'bold_font';
+	font-weight:bold;
+	position:absolute;
+	bottom:10%;
+}
+/*=====================static banner==================*/
+.static_banner{
+	background:url('img/banner2.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	width:100%;
+	min-height:100%;
+	margin-top:100px;
+	
+
+	
+}
+/*====================menu btn===============*/
+.menu_btn{
+	background:none;
+	border:2px solid #F9FFE6;
+	border-radius:30px;
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
+	transition:1s ease;
+	margin:40px 20px 0 0;
+	width:160px;
+	height:50px;
+	
+}
+.menu_btn:hover{
+	color:#fff;
+	background:#ECE917!important;
+	border:2px solid #ECE917;
+	border-radius:30px;
+	font-weight:bold;
+	font-size:16px;
+	
+
+}
+.menu_btn:active,
+.menu_btn.active,
+{
+	background:#ECE917!important;	
+	border:none;
+	outline:none;
+}
+.menu_btn:focus,.menu_btn.focus {
+ background:#ECE917!important;
+ border:none;
+ outline:none;
+}
+.menu_head{
+	color:#fff;
+	font-family:'bold_font';
+	margin:50px 0 0 0;
+	font-size:50px;
+	
+}
+.white_box{
+	background:white;
+	width:530px;
+	height:300px;
+	position:relative;
+	margin:50px 20px 0 0;
+	border-radius:5px;
+	transition: all .2s ease-in-out;
+}
+.white_box:hover{
+	-ms-transform: scale(1.02,1.02); /* IE 9 */
+    -webkit-transform: scale(1.02,1.02); /* Safari */
+    transform: scale(1.04,1.04);
+	
+}
+.white_box1{
+	background:white;
+	width:530px;
+	height:300px;
+	position:relative;
+	margin:50px 0 0 20px;
+	border-radius:5px;
+	transition:all .2s ease-in-out;
+}
+.white_box1:hover{
+	-ms-transform: scale(1.02,1.02); /* IE 9 */
+    -webkit-transform: scale(1.02,1.02); /* Safari */
+	transform: scale(1.04,1.04);
+	
+}
+
+
+
+.img_gal{
+	width:200px;
+	height:150px;
+	margin:50px 20px 20px 20px;
+}
+.img_gal2{
+	width:200px;
+	height:180px;
+	margin:50px 20px 20px 20px;
+}
+.white_box1{
+	background:white;
+	width:530px;
+	height:300px;
+	position:relative;
+	margin:50px 0 50px 20px;
+	border-radius:5px;
+}
+.img_float{
+	float:left;
+}
+.menu_para{
+	color:#9D9D9D;
+	font-size:14px;
+	margin:10px 10px 0 10px;
+	line-height:30px;
+	text-decoration:none;
+}
+.menu_head2{
+	color:#464646;
+	font-size:24px;
+	margin:40px 0 0 10px;
+	font-family:'para_font';
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+.label_para{
+	color:#ABB82D;
+	font-size:30px;
+	margin:20px 0 0 0;
+	font-family:'para_font';
+
+	
+}
+/*=====================small banner==================*/
+.small_banner{
+	background:#F6F5F1;
+	width:100%;
+	
+}
+.small_img{
+	width:400px;
+	height:390px;
+	
+	
+}
+.small_para{
+	font-family:'fav_font';
+	color:#9B9B9B;
+	font-size:20px;
+	padding:10px 20px 0 100px;
+}
+.small_head{
+	font-family:'fav_font';
+	color:#404040;
+	font-size:80px;
+	padding:50px 20px 0 100px;
+	
+}
+
+.order_btn{
+	background:#C7CF27;
+	width:190px;
+	height:50px;
+	border-radius:30px;
+	border:none;
+	font-size:18px;
+	margin:20px 0 0 90px;
+	transition:all .2s ease-in-out;
+
+	
+}
+.order_btn:hover{
+	background:none;
+	border:2px solid #C7CF27;
+	color:#C7CF27;
+	font-size:18px;
+
+		-ms-transform: scale(1.08,1.08); /* IE 9 */
+    -webkit-transform: scale(1.08,1.08); /* Safari */
+	transform: scale(1.08,1.08);
+}
+.small_para1{
+		
+	color:#9B9B9B;
+	font-size:14px;
+	margin:10px 20px 0 100px;
+	
+}
+/*===============gallery=================*/
+.gallery_img{
+	width:266px;
+	height:175px;
+	display:inline;
+
+	
+}
+.img1_hover, .img2_hover, .img3_hover, .img4_hover, .img5_hover{
+	transition:all .2s ease-in-out;
+	
+}
+.img1_hover:hover, .img2_hover:hover, .img3_hover:hover, .img4_hover:hover, .img5_hover:hover{
+	-ms-transform: scale(1.08,1.08); /* IE 9 */
+    -webkit-transform: scale(1.08,1.08); /* Safari */
+	transform:scale(1.08,1.08);
+	
+}
+/*===================footer nav===================*/
+.hr_line{
+	width:100%;
+	border:none;
+		background:#696A64;
+		height:1px;
+	margin:150px 0 50px 0;
+}
+.grid{
+	border-left:1px solid #696A64;
+	height:40px;
+	float:left;
+}
+.footer{
+	background:#141512;
+	padding:0 0 0 80px;
+}
+.footer_nav{
+	margin:50px 0 50px 0;
+	
+}
+.footer_nav ul{
+	margin:20px 0 0 0;
+	list-style-type:none;
+
+}
+.footer_nav li a{
+	font-size:16px;
+	color:#B8D020;
+	padding:10px 40px 0 40px;
+	float:left;
+	text-decoration:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
